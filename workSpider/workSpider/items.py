@@ -8,12 +8,12 @@ import scrapy
 
 
 class JobItem(scrapy.Item):
-    jobTitle = scrapy.Field()  # 招聘计划
-    jobPlan = scrapy.Field()  # 招聘计划：人数
-    jobDate = scrapy.Field()  # 报名时间
-    jobLocation = scrapy.Field()  # 招聘地区
-    jobType = scrapy.Field()  # 劳动关系
-    jobWay = scrapy.Field()  # 报名方式
-    jobHref = scrapy.Field()  # 网址
+    工作名称 = scrapy.Field()  # 招聘计划
+    招聘计划 = scrapy.Field()  # 招聘计划：人数
+    报名时间 = scrapy.Field()  # 报名时间
+    招聘地区 = scrapy.Field()  # 招聘地区
+    劳动关系 = scrapy.Field()  # 劳动关系
+    报名方式 = scrapy.Field()  # 报名方式
+    # jobHref = scrapy.Field()  # 网址
     # jobOther = defaultdict(scrapy.Field())  # 其他
 
